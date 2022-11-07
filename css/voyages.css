@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 /*footer*/
 
 .contact2 {
@@ -93,4 +96,8 @@ footer p {
     width:20px; 
     height:20px; 
     text-align:center;
+=======
+body{
+    width: 100%;
+>>>>>>> de131039a1ef5ebde101aa6ef96834d439c60c17
 }
