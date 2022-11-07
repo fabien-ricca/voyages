@@ -1,3 +1,70 @@
 body{
     width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.royaume-uni img, .japon img, .australie img, .canada img, .corse img{
+    height: 40vh;
+}
+
+.royaume-uni, .japon, .australie, .canada, .corse{
+    height: 40vh;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.royaume-uni p, .japon p, .australie p, .canada p, .corse p{
+    padding: 30px;
+}
+
+.royaume-uni{
+    background-color: rgb(216, 195, 255);
+}
+
+.royaume-uni img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.japon{
+    background-color: rgb(255, 196, 221);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.japon img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.australie{
+    background-color: rgb(255, 223, 181);
+}
+
+.australie img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.canada{
+    background-color: rgb(255, 134, 86);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.canada img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: -7%;
+}
+
+.corse{
+    background-color: rgb(155, 185, 219);
+}
+
+.corse img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    margin-left: -4%;
 }
