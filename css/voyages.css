@@ -3,6 +3,7 @@
     padding: 0;
     width: 100%;
     list-style-type: none;
+    text-decoration: none;
 }
 
 header{
@@ -11,113 +12,69 @@ header{
 }
 
 
-
-
 /******************************************** HEADER *************************************/
 header img{
     max-height: 180px;
     max-width: 180px;
 }
 
-nav{
-    
-}
 
-/* #menu{
-    width: 100%;
-    background-color: brown;
-}
-
-nav > ul li {
-    align-self: center;
-    margin-top: 4rem;
-    margin-right: 20rem;
-}
-
-nav li {
-    list-style-type:none;
-    padding:10px;
-    font-size:20px;
-    text-decoration:none;
-}
-     
-nav ul {
-    list-style-type: none;
-}
-    
-nav ul li {
-    line-height:30px;
-    float:left;
-}
-    
-nav ul li a {
-    color: #333;
-    padding: 5px;
-    font-size: 20px;
-    text-decoration: none;
-}
-    
-li a:hover {
-    border-bottom: 3px orange solid;
-}
-
-nav ul li ul { 
-    display: none;
-} 
-    
-nav ul li:hover ul {
-    transition: 0.3s;
-    display: list-item;
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -10px;
-}
-    
-nav ul li:hover ul li {
-    float: none;
-} */
 
 .menu{
+    margin-top: 5rem;
+    width: 100%;
     display: flex;
-    width: 100%
+    flex-wrap: wrap;
   }
-  .menu > li {
-    color: orangered;
+
+
+  
+.menu a{
+    color: #333;
+}
+
+.menu > li {
+    width: 200px;
     height: 60px;
+    margin-right: 10rem;
+    margin-left: 18rem;
     line-height: 60px;
     cursor: pointer;
     font-size: 30px;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
     text-align: center;
-    font-family: 'shlop';
-    letter-spacing: 2px;
-    font-style: italic;
-    margin-right: -35px;
-  }
-  .sous-menu {
+}
+
+.menu > li:hover {
+    border-radius: 40px;
+    background-color: rgba(61, 191, 196, 0.696);
+}
+
+.sous-menu {
     transform: scale(0);
     transform-origin: top center;
     transition: all 300ms ease-in-out;
     z-index: 15;
-  }
-  .sous-menu li {
-    font-size: 30px;
-    letter-spacing: 1px;
-    color: orangered;
-    border-bottom: 5px solid rgb(0, 0, 0);
-    transition: all 300ms ease-in-out;
-    text-shadow: 11px 9px 11px rgba(0,0,0,0.89)
-  }
-  .sous-menu li:hover {
-    background: rgba(0, 0, 0, 0.696);
-  }
-  .menu > li:hover .sous-menu {
+}
+
+.sous-menu li {
+    margin-top: 1rem;
+}
+
+.sous-menu li:hover{
+    border-radius: 40px;
+    background: rgba(61, 191, 196, 0.696);
+    color: #fff;
+}
+
+.sous-menu li:hover a{
+    color: #fff;
+}
+
+.menu > li:hover .sous-menu {
     transform: scale(1);
-  }
-  .TextDeco{
-      text-decoration: none;
-      color: orangered;
-  }
+}
+
