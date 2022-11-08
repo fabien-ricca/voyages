@@ -90,38 +90,7 @@ header{
 
 
 
-/****************************CONTACT***************************************/
-#contact-body {
-    background-image: url("/image/form-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
 
-#contact-container {
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.form-flex {
-    display: flex;
-    flex-direction: column;
-    color: #FFF;
-}
-
-.form-separate {
-    margin: 20px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 10px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
 /********************************RESUMES PAYS*******************************/
@@ -192,4 +161,38 @@ header{
 .corse img{
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
     margin-left: -4%;
+}
+
+
+/****************************CONTACT***************************************/
+#contact-body {
+    background-image: url("/image/form-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact-container {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.form-separate {
+    margin: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
