@@ -1,6 +1,57 @@
 body{
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+
+/****************************INDEX***************************************/
+
+.flex-header {
+    background-image: url("/image/header-pic.jpg");
+    width: 100%;
+}
+
+.title-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    font-size: 300%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/****************************CONTACT***************************************/
+
+#contact-body {
+    background-image: url("/image/form-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact-container {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.form-separate {
+    margin: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
 }

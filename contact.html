@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora:ital,wght@1,600&family=Martel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/voyages.css">
+    <title>Document</title>
+</head>
+
+<body id="contact-body">
+    <header><a href="index.html">index</a></header>
+    
+    <main>
+        <article id="container">
+            <form class="form-flex">
+                <label for="nom">Nom</label>
+                <input class="form-separate" type="text" id="nom" name="nom" placeholder="Entrez votre nom .." required>
+
+                <label for="prénom">Prénom</label>
+                <input class="form-separate" type="text" id="prenom" name="prenom" placeholder="Entrez votre prenom .." required>
+
+                <label for="email">E-mail</label>
+                <input class="form-separate" type="email" id="email" name="email" placeholder="Entrez votre mail .." required>
+
+                <label for="pays">Pays</label>
+                <select class="form-separate" name="pays" id="pays" required>
+                    <option value="canada">Canada</option>
+                    <option value="japon">Japon</option>
+                    <option value="royaume-uni">Royaume-uni</option>
+                    <option value="australie">Australie</option>
+                    <option value="corse"></option>
+                </select>
+
+                <label for="commentaires">Commentaires</label>
+                <textarea class="form-separate" name="commentaires" id="commentaires" cols="50" rows="10"></textarea>
+
+                <input class="form-separate" type="submit" value="Envoyer">
+            </form>
+        </article>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
