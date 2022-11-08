@@ -7,15 +7,17 @@
 
 .part1 {
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 4rem;
-    width: 80%;
+    width: 100%;
+
+    background-color: #EEC643;
 }
 
 .img-melbourne {
     width: 60%;
     height: auto;
-    margin-right: 3rem;
+    clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
 
 /**********************SLIDE**********************/
@@ -119,12 +121,12 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
+    background-color: #433E0E;
     counter-increment: item;
   }
   
   .carousel__slide:nth-child(even) {
-    background-color: #99f;
+    background-color: #EEC643;
   }
   
   .carousel__slide:before {
