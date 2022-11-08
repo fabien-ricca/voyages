@@ -2,12 +2,47 @@ body{
     width: 100%;
     padding: 0;
     margin: 0;
+    background-image: url(/images/algérie_footer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
+main{
+   /* margin-top: 100vh;*/
+}
+.visite img{
+    width:30%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);   
+}
+
+.expli{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.8);
+    margin: 2% ;
+}
+.expli1{
+    font-size: 120%;
+    padding: 3%;
+}
+.first_title{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15% 35%;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    height: 50vh;
+    font-size: 150%;
+}
+
+
+
 /*footer*/
 
 .contact2 {
     color:#FFF;
-    padding-top:px ; 
     margin-bottom:20px ;
 }
 footer { 
