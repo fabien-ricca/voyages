@@ -15,7 +15,7 @@
 }
 
 .img-melbourne {
-    width: 60%;
+    width: 100%;
     height: auto;
     clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
