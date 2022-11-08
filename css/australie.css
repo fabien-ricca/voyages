@@ -3,21 +3,137 @@
 .title-australie {
     display: flex;
     justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 250%;
+    font-weight: bold;
+    color: #EEC643;
 }
 
-.part1 {
+.title-green {
+    color: #433E0E;
+}
+
+.melbourne1 {
+    font-family: 'Martel', serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-
+    width: 80%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-right: 3%;
+    margin-top: 3%;
     background-color: #EEC643;
 }
 
-.img-melbourne {
-    width: 100%;
+.melbourne2 {
+    font-family: 'Martel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: 4%;
+    padding-left: 4%;
+    background-color: #EEC643;
+}
+
+
+.img-melbourne1 {
+    width: 80%;
     height: auto;
     clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
+}
+
+.img-melbourne2 {
+    width: 75%;
+    height: auto;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+
+.goldcoast1 {
+    font-family: 'Martel', serif;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-right: 3%;
+    margin-top: 3%;
+    background-color: #433E0E;
+}
+
+.goldcoast2 {
+    font-family: 'Martel', serif;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-left: 3%;
+    margin-top: 3%;
+    background-color: #433E0E;
+}
+
+
+.img-goldcoast1 {
+    width: 90%;
+    height: auto;
+    clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
+}
+
+.img-goldcoast2 {
+    width: 80%;
+    height: auto;
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.sydney1 {
+    font-family: 'Martel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: 4%;
+    padding-right: 4%;
+    background-color: #EEC643;
+}
+
+.sydney2 {
+    font-family: 'Martel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    padding-left: 3%;
+    margin-top: 3%;
+    background-color: #EEC643;
+}
+
+.img-sydney1 {
+    width: 80%;
+    height: auto;
+    clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
+}
+
+.img-sydney2 {
+    width: 80%;
+    height: auto;
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 /**********************SLIDE**********************/
@@ -100,7 +216,7 @@
   .carousel {
     position: relative;
     padding-top: 75%;
-    filter: drop-shadow(0 0 10px #0003);
+    filter: drop-shadow(0 0 10px #FFFFFF);
     perspective: 100px;
   }
   
@@ -188,7 +304,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #333;
+    background-color: #FFFFFF;
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
