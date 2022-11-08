@@ -10,6 +10,7 @@ body{
 
 .flex-header {
     background-image: url("/image/header-pic.jpg");
+    background-repeat: no-repeat;
     width: 100%;
 }
 
