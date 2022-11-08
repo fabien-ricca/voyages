@@ -7,6 +7,25 @@ body{
     background-attachment: fixed;
 
 }
+/****************************INDEX***************************************/
+
+.flex-header {
+    background-image: url("/image/header-pic.jpg");
+    width: 100%;
+}
+
+.title-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    font-size: 300%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/***************main***************/
 
 main{
    /* margin-top: 100vh;*/
@@ -133,4 +152,11 @@ footer p {
     width:20px; 
     height:20px; 
     text-align:center;
+}
+/*********sahara*********/
+.page2 body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
 }
