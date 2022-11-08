@@ -62,6 +62,10 @@ body{
 
 /********************************RESUMES PAYS*******************************/
 
+.resume-pays{
+    font-family: 'Martel', serif;
+}
+
 .royaume-uni img, .japon img, .australie img, .canada img, .corse img{
     height: 40vh;
 }
