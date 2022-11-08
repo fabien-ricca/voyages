@@ -15,7 +15,7 @@ header{
 
 /******************************************** HEADER *************************************/
 .flex-header {
-    background-image: url("/image/header-pic.jpg");
+    background-image: url("../image/header-pic.jpg");
     width: 100%;
 }
 
