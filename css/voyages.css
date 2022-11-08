@@ -1,103 +1,131 @@
 body{
     width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-/*footer*/
 
-.contact2 {
-    color:#FFF;
-    padding-top:px ; 
-    margin-bottom:20px ;
+
+/****************************INDEX***************************************/
+
+.flex-header {
+    background-image: url("/image/header-pic.jpg");
+    width: 100%;
 }
-footer { 
-    width:100%; 
-    background-color:#263238; 
-    min-height:250px; 
-    padding:10px 0px 30px 0px ;
-}
-footer p {
-    font-size:13px; 
-    color:#CCC; 
-    padding-bottom:0px; 
-    margin-bottom:8px;
-}
-.row{
+
+.title-header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    font-size: 300%;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
 }
-.column{
+
+
+/****************************CONTACT***************************************/
+
+#contact-body {
+    background-image: url("/image/form-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contact-container {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size: 150%;
-    width: 30%;
-    padding:0% 5%;
+    color: #FFF;
 }
-.column img{
-    width: 50%;
+
+.form-separate {
+    margin: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#logo{
+
+
+/********************************RESUMES PAYS*******************************/
+
+.resume-pays{
+    font-family: 'Martel', serif;
+}
+
+.royaume-uni img, .japon img, .australie img, .canada img, .corse img{
+    height: 40vh;
+}
+
+.royaume-uni, .japon, .australie, .canada, .corse{
+    height: 40vh;
+    font-size: 20px;
+
     display: flex;
     align-items: center;
 }
 
-.nos_service {
-    list-style-type:none;
-    padding: 0;
+.royaume-uni p, .japon p, .australie p, .canada p, .corse p{
+    padding: 30px;
 }
-.nos_service li a:hover { 
-    text-decoration:none;
+
+.royaume-uni{
+    background-color: rgb(216, 195, 255);
 }
-.nos_service li a { 
-    text-decoration: none;
-    color: #CCC;
-    font-size: 15px;
+
+.royaume-uni img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
-.column p{ font-size: 15px;}
-.column h5{font-size: 20px;}
-.top_border { 
-    border-top:1px solid #323f45; 
-    padding-bottom:20px;
+
+.japon{
+    background-color: rgb(255, 196, 221);
+    display: flex;
+    flex-direction: row-reverse;
 }
-.footer_fin {
-	list-style-type:none;
-	padding:0px;
-	display:table;
-	margin-top: 10px;
-	margin-right: auto;
-	margin-bottom: 10px;
-	margin-left: auto;
+
+.japon img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
-.footer_fin li { 
-    display:inline;
+
+.australie{
+    background-color: rgb(255, 223, 181);
 }
-.footer_fin li a { 
-    color:#999; 
-    margin:0 15px;
-    text-decoration: none;
+
+.australie img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
-.social_media { 
-    display:table; 
-    margin:15px auto 0 auto; 
-    list-style-type:none;  
+
+.canada{
+    background-color: rgb(255, 134, 86);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row-reverse;
 }
-.social_media li { 
-    padding-left:20px; 
-    padding-top:10px; 
-    float:left; 
+
+.canada img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: -7%;
 }
-.social_media li a { 
-    color:#CCC; 
-    border:1px solid #CCC; 
-    padding:8px;
-    border-radius:50%;
+
+.corse{
+    background-color: rgb(155, 185, 219);
 }
-.social_media li i {  
-    width:20px; 
-    height:20px; 
-    text-align:center;
-=======
-body{
-    width: 100%;
->>>>>>> de131039a1ef5ebde101aa6ef96834d439c60c17
+
+.corse img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    margin-left: -4%;
 }
