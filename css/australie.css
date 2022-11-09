@@ -13,6 +13,41 @@
     color: #433E0E;
 }
 
+.australie1 {
+  font-family: 'Martel', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  padding-right: 3%;
+  margin-top: 3%;
+  background-color: #EEC643;
+}
+
+.australie2 {
+  font-family: 'Martel', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+  padding-left: 3%;
+  margin-top: 3%;
+  background-color: #EEC643;
+}
+
+.img-australie1 {
+  width: 70%;
+  height: auto;
+  clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
+}
+
+
 .melbourne1 {
     font-family: 'Martel', serif;
     display: flex;
@@ -103,7 +138,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: 4%;
     padding-right: 4%;
