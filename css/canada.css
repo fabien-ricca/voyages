@@ -257,8 +257,8 @@ img:nth-child(10) {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 99999;
+  background: rgba(0, 0, 0, 0.527);
+  z-index: 1;
   opacity: 0;
   -webkit-transition: opacity 400ms ease-in;
   -moz-transition: opacity 400ms ease-in;
@@ -271,7 +271,7 @@ img:nth-child(10) {
 }
 
 .popupclass > div {
-  width: 60%;
+  width: 50%;
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
@@ -288,7 +288,7 @@ img:nth-child(10) {
   right: -12px;
   text-align: center;
   top: -10px;
-  width: 24px;
+  width: 25px;
   text-decoration: none;
   font-weight: bold;
   -webkit-border-radius: 12px;
