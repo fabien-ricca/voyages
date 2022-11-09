@@ -6,17 +6,14 @@
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    height: 10%;
-}
+
 
 
 /******************************************** HEADER *************************************/
 .flex-header {
     background-image: url("/images/header-pic.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
 }
 
@@ -24,7 +21,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     height: 250px;
     font-size: 300%;
     color: #FFFFFF;
@@ -170,20 +166,21 @@ header{
 
 
 /****************************CONTACT***************************************/
-#contact-body {
-    background-image: url("/image/form-image.jpg");
+#contact-main {
+    background-image: url("/images/form-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 
-#contact-container {
+#container {
     text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    backdrop-filter: blur(2px);
 }
 
 .form-flex {
