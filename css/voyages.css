@@ -104,12 +104,13 @@ header{
 }
 
 .royaume-uni img, .japon img, .australie img, .canada img, .corse img{
-    height: 40vh;
+    width: 50%;
+    height: fit-content;
 }
 
 .royaume-uni, .japon, .australie, .canada, .corse{
-    height: 40vh;
-    font-size: 20px;
+    height: fit-content;
+    font-size: 1.1vw;
 
     display: flex;
     align-items: center;
@@ -125,6 +126,10 @@ header{
 
 .royaume-uni img{
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.royaume-uni p{
+
 }
 
 .japon{
