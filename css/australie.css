@@ -1,3 +1,4 @@
+
 /**********************MAIN**********************/
 
 .title-australie {
@@ -24,7 +25,8 @@
   margin-bottom: 4%;
   padding-right: 3%;
   margin-top: 3%;
-  background-color: #EEC643;
+  background-color: #433E0E;
+  color: #FFFFFF;
 }
 
 .australie2 {
@@ -38,7 +40,8 @@
   margin-bottom: 4%;
   padding-left: 3%;
   margin-top: 3%;
-  background-color: #EEC643;
+  background-color: #433E0E;
+  color: #FFFFFF;
 }
 
 .img-australie1 {
@@ -272,12 +275,12 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #433E0E;
+    background-color: #F4FAFF;
     counter-increment: item;
   }
   
   .carousel__slide:nth-child(even) {
-    background-color: #EEC643;
+    background-color: #F4FAFF;
   }
   
   .carousel__slide:before {
@@ -339,7 +342,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #FFFFFF;
+    background-color: #000000;
     background-clip: content-box;
     border: 0.25rem solid transparent;
     border-radius: 50%;
@@ -376,7 +379,7 @@
   .carousel::after {
     content: '';
     z-index: 1;
-    background-color: #333;
+    background-color: #000000;
     background-size: 1.5rem 1.5rem;
     background-repeat: no-repeat;
     background-position: center center;
@@ -394,3 +397,58 @@
   .carousel::after {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
   }
+
+
+
+  
+/*Basic structure of slider*/
+.container{
+  width: 80rem;
+  height: 40rem;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 190%;
+  left: 50%;
+  overflow: hidden;
+  border: 10px solid #000000;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black;
+}
+
+/*Area of images*/
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 4s infinite;
+}
+
+.wrapper img{
+  width: 100%;
+}
+/*Animation activated by keyframes*/
+@keyframes slide {
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
