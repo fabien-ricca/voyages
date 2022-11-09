@@ -1,13 +1,19 @@
-body{
-    width: 100%;
-    height: 100%;
+*{
     margin: 0;
     padding: 0;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
 }
 
 
-/****************************INDEX***************************************/
-
+/******************************************** HEADER *************************************/
 .flex-header {
     background-image: url("/images/header-pic.jpg");
     background-repeat: no-repeat;
@@ -25,9 +31,145 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+#logo{
+    max-height: 180px;
+    max-width: 180px;
+}
+
+.menu{
+    width: 100%;
+    background-color: #70CBF4;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+.menu a{
+    color: #333;
+    font-size: 35px;
+}
+
+.menu > li {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu > li:hover {
+    background-color: #1ca4e4;
+}
+
+.sous-menu {
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 300ms ease-in-out;
+    z-index: 15;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sous-menu li{
+    background-color: #1ca4e4;
+}
+
+.sous-menu li:hover{
+    background: #1ca4e4;
+    color: #fff;
+}
+
+.sous-menu li:hover a{
+    color: #fff;
+}
+
+.menu > li:hover .sous-menu {
+    transform: scale(1);
+}
+
+
+
+
+
+
+/********************************RESUMES PAYS*******************************/
+
+.resume-pays{
+    font-family: 'Martel', serif;
+}
+
+.royaume-uni img, .japon img, .australie img, .canada img, .corse img{
+    height: 40vh;
+}
+
+.royaume-uni, .japon, .australie, .canada, .corse{
+    height: 40vh;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.royaume-uni p, .japon p, .australie p, .canada p, .corse p{
+    padding: 30px;
+}
+
+.royaume-uni{
+    background-color: rgb(216, 195, 255);
+}
+
+.royaume-uni img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.japon{
+    background-color: rgb(255, 196, 221);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.japon img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.australie{
+    background-color: rgb(255, 223, 181);
+}
+
+.australie img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.canada{
+    background-color: rgb(255, 134, 86);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.canada img{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-right: -7%;
+}
+
+.corse{
+    background-color: rgb(155, 185, 219);
+}
+
+.corse img{
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    margin-left: -4%;
+}
+
 
 /****************************CONTACT***************************************/
-
 #contact-body {
     background-image: url("/image/form-image.jpg");
     background-repeat: no-repeat;
@@ -55,4 +197,7 @@ body{
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
