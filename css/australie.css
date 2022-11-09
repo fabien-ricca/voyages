@@ -27,6 +27,10 @@
   margin-top: 3%;
   background-color: #433E0E;
   color: #FFFFFF;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
 }
 
 .australie2 {
@@ -172,6 +176,11 @@
     width: 80%;
     height: auto;
     clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
 }
 
 /**********************SLIDE**********************/
