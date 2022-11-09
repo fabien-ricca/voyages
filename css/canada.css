@@ -8,10 +8,10 @@ main{
   min-height: 70vw;
 }
 .section-flex{
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 3rem;
   box-shadow: 0 0 50px rgb(7, 7, 7);
 }
 
@@ -39,10 +39,18 @@ main{
 }
 
 #canada-main{
-  background-image: url("../image/canada/canadamainwall.jpg");
+  background-image: url("../image/canada/test.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
+
+#niagara a:hover, #quebec a:hover, #toronto a:hover, #ottawa a:hover, #montreal a:hover{
+  text-shadow: 4px 2px #940909;
+  text-decoration: underline 1px #940909;
+  margin-left: 4rem;
+  transition: 0.5s;
+}
+
 
 
 /******************************************** Carousel *************************************/
@@ -50,7 +58,7 @@ main{
   display: flex;
   width: 100%;
   min-height: 900px;
-  background-image: url("../image/canada/carousel.jpg");
+  background-image: url("../image/canada/carrousel/carouselwall.jpg");
   background-size: cover;
 }
 
@@ -60,12 +68,16 @@ main{
   justify-content: center;
 }
 
-@keyframes display {
+@keyframes glisse {
   0% {
     transform: translateX(200px);
     opacity: 0;
   }
   10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  15% {
     transform: translateX(0);
     opacity: 1;
   }
@@ -91,7 +103,7 @@ main{
   box-shadow: 0 0 30px rgb(255, 255, 255);
   top: 0;
   opacity: 0;
-  animation: display 10s infinite;
+  animation: glisse 10s infinite;
 }
 
 img:nth-child(2) {
@@ -105,6 +117,21 @@ img:nth-child(4) {
 }
 img:nth-child(5) {
   animation-delay: 8s;
+}
+img:nth-child(6) {
+  animation-delay: 10s;
+}
+img:nth-child(7) {
+  animation-delay: 12s;
+}
+img:nth-child(8) {
+  animation-delay: 14s;
+}
+img:nth-child(9) {
+  animation-delay: 16s;
+}
+img:nth-child(10) {
+  animation-delay: 18s;
 }
 
 
@@ -135,6 +162,9 @@ img:nth-child(5) {
   background-size: cover;
 }
 
+#quebec a{
+  color: black;
+}
 
 /******************************************** Toronto *************************************/
 #toronto{
@@ -147,7 +177,7 @@ img:nth-child(5) {
   background-size: cover;
 }
 
-#toronto p, #toronto h2{
+#toronto p, #toronto a{
   color: white;
 }
 
@@ -163,6 +193,9 @@ img:nth-child(5) {
   background-size: cover;
 }
 
+#ottawa a{
+  color: black;
+}
 
 /******************************************** Montreal *************************************/
 #montreal{
@@ -175,6 +208,97 @@ img:nth-child(5) {
   background-size: cover;
 }
 
-#montreal p, #montreal h2{
+#montreal p, #montreal a{
   color: white;
+}
+
+#niagara a, #quebec a, #toronto a, #ottawa a, #montreal a{
+  
+  transition: 0.5s;
+}
+
+
+/******************************************** Culinaire *************************************/
+#culinaire{
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-image: url("/image/canada/carrousel/carouselwall.jpg");
+  background-size: cover;
+}
+
+#title{
+  color: #fff;
+}
+
+#culinaire img{
+  height: 200px;
+  width: 200px;
+  margin: 5rem;
+  box-shadow: 0 0 30px rgb(255, 255, 255);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+#culinaire img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.plat{
+  width: fit-content;
+}
+
+.popupclass {
+  position: fixed;
+  color: #FFF;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.popupclass:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popupclass > div {
+  width: 60%;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
+
+}
+
+.close {
+  color: rgb(146, 143, 143);
+  font-size: 30px;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+
+}
+
+.close:hover {
+  font-size: 40px;
+  background-color: #940909;
+  color: #fff;
 }
