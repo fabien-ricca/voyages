@@ -99,12 +99,12 @@
     font-family: 'Martel', serif;
 }
 
-.royaume-uni img, .japon img, .australie img, .canada img, .corse img{
+.algerie img, .japon img, .australie img, .canada img, .corse img{
     width: 50%;
     height: fit-content;
 }
 
-.royaume-uni, .japon, .australie, .canada, .corse{
+.algerie, .japon, .australie, .canada, .corse{
     height: fit-content;
     font-size: 1.1vw;
 
@@ -112,16 +112,17 @@
     align-items: center;
 }
 
-.royaume-uni p, .japon p, .australie p, .canada p, .corse p{
+.algerie p, .japon p, .australie p, .canada p, .corse p{
     padding: 30px;
 }
 
-.royaume-uni{
-    background-color: rgb(216, 195, 255);
+.algerie{
+    background-color: rgb(253, 188, 148);
 }
 
-.royaume-uni img{
+.algerie img{
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    height: 23vw;
 }
 
 .japon{
