@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'japan1';
+    src: url('../fonts/onsen-japan-demo/OnsenJapanDemoRegular.ttf');
+}
+h2{
+    font-family: 'japan1';
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -9,7 +17,9 @@ body{
 }
 
 p, ul{
-    font-size: 120%;
+    font-size: 110%;
+    font-family: 'Noto Serif JP', serif;
+
 }
 
 .slidershow{
@@ -103,7 +113,7 @@ input[name=r]{
 }
 
 .ville, .monument, .paysage, .nourriture{
-    width: 70vmin;
+    width: 85vmin;
     padding: 6vw;
     margin-bottom: 10vw;
 }
@@ -113,14 +123,14 @@ input[name=r]{
 
     box-shadow: 10px 5px 5ps red;
     transform: translate(-0.5vw, -0.5vw);
-    box-shadow: 12px 12px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 12px 12px 5px 1px rgba(255, 217, 217, 0.5);
 }
 
 .ville{
     background-image: url(../image-japon/kyoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.85);
+    filter: opacity(0.92);
     margin-top: 10vw;
 }
 
@@ -131,20 +141,27 @@ input[name=r]{
     padding-bottom: 0.5vw;
 }
 
+.ville li{
+    list-style-type: circle;
+}
+
 .ville ul{
     padding-bottom: 1vh;
+    padding-left: 2vw;
+    width: 83vh;
 }
 
 .ville h2{
     padding: 4vh 1vw;
     text-align: center;
+    padding-top: 10%;
 }
 
 .monument{
     background-image: url(../image-japon/pavillon4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.85);
+    filter: opacity(0.92);
     margin-top: 10vw;
 }
 
@@ -159,13 +176,14 @@ input[name=r]{
 .monument h2{
     padding: 4vh 1vw;
     text-align: center;
+    padding-top: 10%;
 }
 
 .paysage{
     background-image: url(../image-japon/fuji1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.85);
+    filter: opacity(0.92);
     margin-top: 10vw;
     
 }
@@ -182,13 +200,14 @@ input[name=r]{
     padding: 4vh 1vw;
     width: 100%;
     text-align: center;
+    padding-top: 10%;
 }
 
 .nourriture{
     background-image: url(../image-japon/ramen4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.85);
+    filter: opacity(0.95);
     margin-top: 10vw;
 }
 
@@ -204,4 +223,5 @@ input[name=r]{
     padding: 4vh 1vw;
     width: 100%;
     text-align: center;
+    padding-top: 10%;
 }
