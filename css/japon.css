@@ -2,7 +2,10 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F4E6D9;
+    background-image: url(../image-japon/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 p, ul{
@@ -10,9 +13,11 @@ p, ul{
 }
 
 .slidershow{
-    width: 99.1vw;
-    height: 53vw;
+    width: 93vw;
+    height: 47.5vw;
     overflow: hidden;
+    margin: 3vw;
+    margin-top: 3vw;
 }
 
 .middle{
@@ -26,7 +31,7 @@ p, ul{
     margin-left: auto;
     margin-right: auto;
     width: 24vw;
-    top: 49vw;
+    top: 44vw;
     display: flex;
 }
 
@@ -108,14 +113,14 @@ input[name=r]{
 
     box-shadow: 10px 5px 5ps red;
     transform: translate(-0.5vw, -0.5vw);
-    box-shadow: 12px 12px 5px 1px rgba(30, 30, 186, 0.2);
+    box-shadow: 12px 12px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .ville{
     background-image: url(../image-japon/kyoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.75);
+    filter: opacity(0.85);
     margin-top: 10vw;
 }
 
@@ -131,7 +136,7 @@ input[name=r]{
 }
 
 .ville h2{
-    padding: 2vw;
+    padding: 4vh 1vw;
     text-align: center;
 }
 
@@ -139,7 +144,7 @@ input[name=r]{
     background-image: url(../image-japon/pavillon4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.75);
+    filter: opacity(0.85);
     margin-top: 10vw;
 }
 
@@ -152,8 +157,7 @@ input[name=r]{
 }
 
 .monument h2{
-    padding: 2vw;
-    width: 100%;
+    padding: 4vh 1vw;
     text-align: center;
 }
 
@@ -161,7 +165,7 @@ input[name=r]{
     background-image: url(../image-japon/fuji1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.7);
+    filter: opacity(0.85);
     margin-top: 10vw;
     
 }
@@ -175,12 +179,7 @@ input[name=r]{
 }
 
 .paysage h2{
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.paysage h2{
-    padding: 2vw;
+    padding: 4vh 1vw;
     width: 100%;
     text-align: center;
 }
@@ -189,7 +188,7 @@ input[name=r]{
     background-image: url(../image-japon/ramen4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(0.75);
+    filter: opacity(0.85);
     margin-top: 10vw;
 }
 
@@ -202,7 +201,7 @@ input[name=r]{
 }
 
 .nourriture h2{
-    padding: 2vw;
+    padding: 4vh 1vw;
     width: 100%;
     text-align: center;
 }
