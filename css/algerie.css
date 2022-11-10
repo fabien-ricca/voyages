@@ -154,9 +154,10 @@ body{
         
     filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
     width:550px;
-    height:500px;
+    height:70vh;
     left:10px;
-    outline:1px solid transparent;
+    outline:1px solid black;
+    box-shadow: 0 0 30px black;
     backface-visibility:hidden
         
 }
