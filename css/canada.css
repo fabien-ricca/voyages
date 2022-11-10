@@ -194,7 +194,7 @@ img:nth-child(10) {
 #montreal{
   width: 100%;
   height: fit-content;
-  margin-top: 45px;
+  margin-top: 15rem;
   background-image: url("../image/canada/montrealwall.jpg");
   background-size: cover;
 }
