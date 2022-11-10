@@ -5,28 +5,27 @@
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    height: 10%;
-}
 
 
 /******************************************** HEADER *************************************/
 .flex-header {
     background-image: url("../images/header-pic.jpg");
-    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 100vw;
 }
 
 .title-header {
     display: flex;
-    justify-content: center;
+    margin-left: 37rem;
     align-items: center;
-    flex-wrap: wrap;
-    height: 250px;
     font-size: 300%;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Josefin Sans', sans-serif;
+    backdrop-filter: blur(4px);
 }
 
 #logo{
@@ -40,6 +39,8 @@ header{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
   }
   
 .menu a{
@@ -103,12 +104,13 @@ header{
 }
 
 .royaume-uni img, .japon img, .australie img, .canada img, .corse img{
-    height: 40vh;
+    width: 50%;
+    height: fit-content;
 }
 
 .royaume-uni, .japon, .australie, .canada, .corse{
-    height: 40vh;
-    font-size: 20px;
+    height: fit-content;
+    font-size: 1.1vw;
 
     display: flex;
     align-items: center;
@@ -168,20 +170,21 @@ header{
 
 
 /****************************CONTACT***************************************/
-#contact-body {
-    background-image: url("/images/form-image.jpg");
+#contact-main {
+    background-image: url("../images/form-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 
-#contact-container {
+#container {
     text-align: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+    backdrop-filter: blur(2px);
 }
 
 .form-flex {

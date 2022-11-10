@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'japan1';
+    src: url('../fonts/onsen-japan-demo/OnsenJapanDemoRegular.ttf');
+}
+h2{
+    font-family: 'japan1';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../image-japon/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p, ul{
+    font-size: 110%;
+    font-family: 'Noto Serif JP', serif;
+
+}
+
+.slidershow{
+    width: 93vw;
+    height: 47.5vw;
+    overflow: hidden;
+    margin: 3vw;
+    margin-top: 3vw;
+}
+
+.middle{
+    position: relative;
+}
+
+.navigation{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24vw;
+    top: 44vw;
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 0.6vw;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+
+input[name=r]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 600%;
+    height: 115%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    height: fit-content;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    margin-top: -12vw;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -21.5%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -42.4%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -62.8%;
+}
+
+#r5:checked ~ .s1{
+    margin-left: -81.1%;
+}
+
+#r6:checked ~ .s1{
+    margin-left: -101.5%;
+}
+
+.paragraphes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ville, .monument, .paysage, .nourriture{
+    width: 85vmin;
+    padding: 6vw;
+    margin-bottom: 10vw;
+}
+
+.ville:hover, .monument:hover, .paysage:hover, .nourriture:hover,
+.ville:focus, .monument:focus, .paysage:focus, .nourriture:focus{
+
+    box-shadow: 10px 5px 5ps red;
+    transform: translate(-0.5vw, -0.5vw);
+    box-shadow: 12px 12px 5px 1px rgba(255, 217, 217, 0.5);
+}
+
+.ville{
+    background-image: url(../image-japon/kyoto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.92);
+    margin-top: 10vw;
+}
+
+.ville h2, .ville p, .ville ul{
+    background-color: rgba(240, 255, 255, 0.5);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.ville li{
+    list-style-type: circle;
+}
+
+.ville ul{
+    padding-bottom: 1vh;
+    padding-left: 2vw;
+    width: 83vh;
+}
+
+.ville h2{
+    padding: 4vh 1vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+
+
+/*************************************** PARAGRAPHES *************************************/
+
+.monument{
+    background-image: url(../image-japon/pavillon4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.92);
+    margin-top: 10vw;
+}
+
+.monument h2, .monument p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.monument h2{
+    padding: 4vh 1vw;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.paysage{
+    background-image: url(../image-japon/fuji1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.92);
+    margin-top: 10vw;
+    
+}
+
+.paysage h2, .paysage p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.paysage h2{
+    padding: 4vh 1vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.nourriture{
+    background-image: url(../image-japon/ramen4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.95);
+    margin-top: 10vw;
+}
+
+.nourriture h2, .nourriture p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.nourriture h2{
+    padding: 4vh 1vw;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
