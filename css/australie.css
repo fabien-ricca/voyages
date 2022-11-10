@@ -1,5 +1,15 @@
 
 
+
+.header-australie {
+  background-image: url("../images/australie/header-australie.webp");
+  width: 100vw;
+  height: 61rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /**********************MAIN**********************/
 
 .title-australie {
@@ -29,10 +39,6 @@
   margin-top: 3%;
   background-color: #433E0E;
   color: #FFFFFF;
-  animation-name: slide;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-direction: normal;
 }
 
 .australie2 {
@@ -275,6 +281,7 @@
   
   .carousel__viewport {
     position: absolute;
+    width: 100vw;
     top: 0;
     right: 0;
     bottom: 0;
