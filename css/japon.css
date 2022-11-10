@@ -97,28 +97,112 @@ input[name=r]{
     align-items: center;
 }
 
-.ville{
-    background-image: url(image-japon/kyoto2.jpg);
-    margin-top: 10vw;
-}
-
 .ville, .monument, .paysage, .nourriture{
     width: 70vmin;
     padding: 6vw;
     margin-bottom: 10vw;
 }
 
+.ville:hover, .monument:hover, .paysage:hover, .nourriture:hover,
+.ville:focus, .monument:focus, .paysage:focus, .nourriture:focus{
+
+    box-shadow: 10px 5px 5ps red;
+    transform: translate(-0.5vw, -0.5vw);
+    box-shadow: 12px 12px 5px 1px rgba(30, 30, 186, 0.2);
+}
+
+.ville{
+    background-image: url(../image-japon/kyoto2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.75);
+    margin-top: 10vw;
+}
+
+.ville h2, .ville p, .ville ul{
+    background-color: rgba(240, 255, 255, 0.5);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.ville ul{
+    padding-bottom: 1vh;
+}
+
+.ville h2{
+    padding: 2vw;
+    text-align: center;
+}
+
 .monument{
-    background-image: url(image-japon/);
-    background-color: blue;
+    background-image: url(../image-japon/pavillon4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.75);
+    margin-top: 10vw;
+}
+
+.monument h2, .monument p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.monument h2{
+    padding: 2vw;
+    width: 100%;
+    text-align: center;
 }
 
 .paysage{
-    background-image: url(image-japon/);
-    background-color: brown;
+    background-image: url(../image-japon/fuji1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.7);
+    margin-top: 10vw;
+    
+}
+
+.paysage h2, .paysage p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.paysage h2{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.paysage h2{
+    padding: 2vw;
+    width: 100%;
+    text-align: center;
 }
 
 .nourriture{
-    background-image: url(image-japon/);
-    background-color: chartreuse;
+    background-image: url(../image-japon/ramen4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(0.75);
+    margin-top: 10vw;
+}
+
+.nourriture h2, .nourriture p{
+    background-color: rgba(58, 66, 70, 0.5);
+    color: #fff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+}
+
+.nourriture h2{
+    padding: 2vw;
+    width: 100%;
+    text-align: center;
 }
