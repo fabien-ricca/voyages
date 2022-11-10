@@ -240,10 +240,11 @@ footer p {
 }
 
 .column img{
-    width: 50%;
+    width: 100%;
 }
 
 #logo{
+    margin-top: 3rem;
     display: flex;
     align-items: center;
 }
