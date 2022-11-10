@@ -9,7 +9,7 @@
 
 /******************************************** HEADER *************************************/
 .flex-header {
-    background-image: url("/images/header-pic.jpg");
+    background-image: url("../images/header-pic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

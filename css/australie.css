@@ -284,6 +284,8 @@
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    max-width: 100vw;
+    max-height: 100vw;
   }
   
   .carousel__slide {
