@@ -1,0 +1,380 @@
+body{
+    width:100vw;
+    padding: 0;
+    margin: 0;
+    background-image: url(/images/algérie_footer.jpg);
+    background-size: cover;
+    background-color:#323f45;
+    background-attachment: fixed;
+
+}
+
+
+
+/***************main***************/
+
+
+.visite img{
+    width:30%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);   
+}
+
+.expli{
+    width: ;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.8);
+    margin: 2% ;
+}
+.expli1{
+    font-size: 120%;
+    padding: 3%;
+}
+.first_title{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 15% 35%;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    height: 50vh;
+    font-size: 150%;
+}
+
+
+
+
+
+
+.modal a{
+    text-decoration: none;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+}
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+.modal_content {
+    border-radius: 4px;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background: white;
+    overflow: auto;
+}
+  
+.modal_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+
+.image_p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5%;
+}
+.image_p1 img{
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    box-shadow: 0 0 40px #263238;
+}
+.parti1{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-size: 150%;
+}
+.image_p1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+/*footer*/
+
+.contact2 {
+    color:#FFF;
+    margin-bottom:20px ;
+}
+footer { 
+    width:100%; 
+    background-color:#263238; 
+    min-height:250px; 
+    padding:10px 0px 30px 0px ;
+}
+footer p {
+    font-size:13px; 
+    color:#CCC; 
+    padding-bottom:0px; 
+    margin-bottom:8px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+    width: 30%;
+    padding:0% 5%;
+}
+.column img{
+    width: 50%;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+.nos_service {
+    list-style-type:none;
+    padding: 0;
+}
+.nos_service li a:hover { 
+    text-decoration:none;
+}
+.nos_service li a { 
+    text-decoration: none;
+    color: #CCC;
+    font-size: 15px;
+}
+.column p{ font-size: 15px;}
+.column h5{font-size: 20px;}
+.bottom_border { 
+    border-bottom:1px solid #323f45; 
+    padding-bottom:20px;
+}
+.footer_fin {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.footer_fin li { 
+    display:inline;
+}
+.footer_fin li a { 
+    color:#999; 
+    margin:0 15px;
+    text-decoration: none;
+}
+.social_media { 
+    display:table; 
+    margin:15px auto 0 auto; 
+    list-style-type:none;  
+}
+.social_media li { 
+    padding-left:20px; 
+    padding-top:10px; 
+    float:left; 
+}
+.social_media li a { 
+    color:#CCC; 
+    border:1px solid #CCC; 
+    padding:8px;
+    border-radius:50%;
+}
+.social_media li i {  
+    width:20px; 
+    height:20px; 
+    text-align:center;
+}
+
+
+
+
+
+.image{
+
+    margin: 2rem auto;
+    width:400px;
+    height:80vh;
+    perspective:8000px;
+    margin-top: 8%;
+}
+            
+.caroussel-image{
+        
+    animation:rotation 24s infinite alternate linear;	
+    transform-style:preserve-3d;
+    position:relative;	
+    
+}
+    
+.caroussel-image img{
+        
+    position: absolute;
+    top:0;
+    left: 0;
+        
+        
+}
+            
+.caroussel-image img{
+        
+    filter:drop-shadow(0 12px 5px hsla(0,0%,0%,.4));
+    width:550px;
+    height:500px;
+    left:10px;
+    outline:1px solid transparent;
+    backface-visibility:hidden
+        
+}
+            
+.caroussel-image img:nth-child(1){
+        
+    transform:translate3d(0,0,700px)
+            
+}
+            
+.caroussel-image img:nth-child(2){
+        
+    transform:rotateY(45deg) translateZ(700px)
+        
+}
+            
+.caroussel-image img:nth-child(3){
+        
+    transform:rotateY(90deg) translateZ(700px)
+        
+}
+        
+.caroussel-image img:nth-child(4){
+        
+    transform:rotateY(135deg) translateZ(700px)
+        
+}
+        
+.caroussel-image img:nth-child(5){
+        
+    transform:rotateY(180deg) translateZ(700px)
+        
+}
+        
+.caroussel-image img:nth-child(6){
+        
+    transform:rotateY(225deg) translateZ(700px)
+        
+}
+        
+.caroussel-image img:nth-child(7){
+        
+    transform:rotateY(270deg) translateZ(700px)
+        
+}
+        
+.caroussel-image img:nth-child(8){
+        
+    transform:rotateY(315deg) translateZ(700px)
+        
+}
+    
+        
+@keyframes rotation{
+from{transform:rotatey(0)}
+to{transform:rotatey(0.5turn)}}
+
+
+
+
+
+
+.frame {
+	max-width: 300px;
+}
+
+.frame {
+	text-align: center;	
+	position: relative;
+	cursor: pointer;	
+	perspective: 300px; 
+	margin-top: 5%;
+}
+.frame img {
+	width: 300px;
+	height: 300px;
+    border-radius: 10px;
+}
+.details {
+	width: 200px;
+	height: 200px;	
+	padding: 5% 8%;
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(90deg);
+	transform-origin: 50%;
+	background: rgba(255,255,255,0.7);	
+	opacity: 0;
+	transition: all 0.3s ease-in;
+	
+}
+.frame:hover .details {
+	transform: translate(-50%, -50%) rotateY(0deg);
+	opacity: 1;
+    border-radius: 10px;
+}
+.details h3{
+	font-size: 200%;
+}
+.details{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.title_food{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+.title_food div{
+    background-color: #CCC;
+    padding: 2%;
+    font-size: 120%;
+    margin: 3% 0;
+    border-radius: 20px;
+}
+
+/****header******/
