@@ -1,4 +1,16 @@
+body {
+  overflow-x: hidden;
+}
 
+
+.header-australie {
+  background-image: url("../images/australie/header-australie.webp");
+  width: 100vw;
+  height: 61rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /**********************MAIN**********************/
 
@@ -29,10 +41,6 @@
   margin-top: 3%;
   background-color: #433E0E;
   color: #FFFFFF;
-  animation-name: slide;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-direction: normal;
 }
 
 .australie2 {
@@ -51,10 +59,17 @@
 }
 
 .img-australie1 {
-  width: 70%;
+  width: 30%;
   height: auto;
   clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
+
+.img-australie2 {
+  width: 30%;
+  height: auto;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
 
 
 .melbourne1 {
@@ -85,13 +100,13 @@
 
 
 .img-melbourne1 {
-    width: 80%;
+    width: 35%;
     height: auto;
     clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
 
 .img-melbourne2 {
-    width: 75%;
+    width: 35%;
     height: auto;
     clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -130,13 +145,13 @@
 
 
 .img-goldcoast1 {
-    width: 90%;
+    width: 30%;
     height: auto;
     clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
 
 .img-goldcoast2 {
-    width: 80%;
+    width: 40%;
     height: auto;
     clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -169,13 +184,13 @@
 }
 
 .img-sydney1 {
-    width: 80%;
+    width: 35%;
     height: auto;
     clip-path: polygon(100% 0, 64% 100%, 0 100%, 0 0);
 }
 
 .img-sydney2 {
-    width: 80%;
+    width: 35%;
     height: auto;
     clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
@@ -275,9 +290,10 @@
   
   .carousel__viewport {
     position: absolute;
+    width: 100vw;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -2%;
     left: 0;
     display: flex;
     overflow-x: scroll;
