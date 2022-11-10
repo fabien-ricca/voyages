@@ -6,15 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lora:ital,wght@1,600&family=Martel&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/voyages.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 
-<body id="contact-body">
-    <header><a href="index.html">index</a></header>
-    
-    <main>
+<body>
+    <header>
+        <article>
+            <section class="flex-header">
+                <div class="img-header">
+                    <a href="index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
+                </div>
+                <div class="title-header">
+                    <h1>A vol d'oiseaux</h1>
+                </div>
+            </section>
+        </article>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Continents</a>
+                    <ul class="sous-menu">
+                        <li><a href="canada.html">Amérique du Nord</a></li>
+                        <li><a href="">Afrique </a></li>
+                        <li><a href="">Europe</a></li>
+                        <li><a href="">Asie</a></li>
+                        <li><a href="australie.html">Océanie</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="">Guides</a>
+                    <ul class="sous-menu">
+                        <li><a href="">Léa</a></li>
+                            
+                        <li><a href="">Khouloud</a></li>
+                            
+                        <li><a href="">Mourad</a></li>
+
+                        <li><a href="">Corentin</a></li>
+
+                        <li><a href="">Fabien</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="contact-main">
         <article id="container">
             <form class="form-flex">
                 <label for="nom">Nom</label>
@@ -30,9 +70,9 @@
                 <select class="form-separate" name="pays" id="pays" required>
                     <option value="canada">Canada</option>
                     <option value="japon">Japon</option>
-                    <option value="royaume-uni">Royaume-uni</option>
+                    <option value="algerie">Algérie</option>
                     <option value="australie">Australie</option>
-                    <option value="corse"></option>
+                    <option value="corse">Corse</option>
                 </select>
 
                 <label for="commentaires">Commentaires</label>
@@ -43,6 +83,45 @@
         </article>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="column" id="logo">
+                    <img src="logo_voyage.png">
+                </div>
+                <div class=" column">
+                    <h5 class="contact2">Contactez Nous</h5>
+                    <p class="expli_footer">Pour toutes Questions, vous pouvez nous contactez sur:</p>
+                    <p><i class="fa fa-location-arrow"></i> 35 Rue de Paris, 13002 Marseille </p>
+                    <p><i class="fa fa-phone"></i>  +33.6.35.69.90.01  </p>
+                    <p><i class="fa fa fa-envelope"></i> info@voyages.com  </p>
+                </div>
+                <div class=" column">
+                    <h5 class="contact2">Nos Services</h5>
+                    <ul class="nos_service">
+                        <li><a href="">Réservation d'hôtel</a></li>
+                        <li><a href="">Achat de billet</a></li>
+                        <li><a href="">Guide de voyage</a></li>
+                        <li><a href="">Top destinations</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="container top_border">
+            <ul class="footer_fin">
+                <li><a href="">acceuil</a></li>
+                <li><a href="">Pays1</a></li>
+                <li><a href="">Pays2</a></li>
+                <li><a href="">Pays3</a></li>
+                <li><a href="">Pays4</a></li>
+                <li><a href="">Pays5</a></li>
+            </ul>
+            <ul class="social_media">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>                   
+    </footer>
 </body>
 </html>
