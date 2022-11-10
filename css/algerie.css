@@ -1,8 +1,7 @@
 body{
-    width:100vw;
     padding: 0;
     margin: 0;
-    background-image: url(/images/algérie_footer.jpg);
+    background-image: url(/images/algerie/algérie_footer.jpg);
     background-size: cover;
     background-color:#323f45;
     background-attachment: fixed;
@@ -20,7 +19,6 @@ body{
 }
 
 .expli{
-    width: ;
     display: flex;
     background-color: rgba(240, 248, 255, 0.8);
     margin: 2% ;
@@ -101,6 +99,7 @@ body{
     height: 300px;
     border-color: black;
     box-shadow: 0 0 40px #263238;
+    transition: transform 400ms ease-out;
 }
 .parti1{
     display: flex;
@@ -113,7 +112,10 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
+.image_p1 img:hover {
+	transform: scale(1.15);
+}
+.image_p1 h3{margin: 10% 0;}
 
 
 
@@ -367,14 +369,30 @@ to{transform:rotatey(0.5turn)}}
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 100%;
-}
-.title_food div{
-    background-color: #CCC;
+    color: white;
     padding: 2%;
-    font-size: 120%;
     margin: 3% 0;
-    border-radius: 20px;
+    font-size: 200%;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.5);
 }
 
-/****header******/
+
+
+
