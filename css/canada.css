@@ -40,7 +40,7 @@ main{
 }
 
 #canada-main{
-  background-image: url("../image/canada/test.jpg");
+  background-image: url("../images/canada/test.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ main{
   display: flex;
   width: 100%;
   min-height: 900px;
-  background-image: url("../image/canada/carrousel/carouselwall.jpg");
+  background-image: url("../images/canada/carrousel/carouselwall.jpg");
   background-size: cover;
 }
 
@@ -141,7 +141,7 @@ img:nth-child(10) {
   width: 100%;
   height: fit-content;
   margin-top: 15rem;
-  background-image: url("../image/canada/niagarawall.jpg");
+  background-image: url("../images/canada/niagarawall.jpg");
   background-size: cover;
 }
 
@@ -155,7 +155,7 @@ img:nth-child(10) {
   width: 100%;
   height: fit-content;
   margin-top: 15rem;
-  background-image: url("../image/canada/quebecwall.jpg");
+  background-image: url("../images/canada/quebecwall.jpg");
   background-size: cover;
 }
 
@@ -168,7 +168,7 @@ img:nth-child(10) {
   width: 100%;
   height: fit-content;
   margin-top: 15rem;
-  background-image: url("../image/canada/torontowall.jpg");
+  background-image: url("../images/canada/torontowall.jpg");
   background-size: cover;
 }
 
@@ -182,7 +182,7 @@ img:nth-child(10) {
   width: 100%;
   height: fit-content;
   margin-top: 15rem;
-  background-image: url("../image/canada/ottawawall.jpg");
+  background-image: url("../images/canada/ottawawall.jpg");
   background-size: cover;
 }
 
@@ -194,8 +194,8 @@ img:nth-child(10) {
 #montreal{
   width: 100%;
   height: fit-content;
-  margin-top: 45px;
-  background-image: url("../image/canada/montrealwall.jpg");
+  margin-top: 15rem;
+  background-image: url("../images/canada/montrealwall.jpg");
   background-size: cover;
 }
 
@@ -215,7 +215,7 @@ img:nth-child(10) {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-image: url("/image/canada/carrousel/carouselwall.jpg");
+  background-image: url("../images/canada/carrousel/carouselwall.jpg");
   background-size: cover;
 }
 
