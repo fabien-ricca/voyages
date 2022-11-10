@@ -10,7 +10,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(../image-japon/fond2.jpg);
+    background-image: url(../images/japon/fond2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -127,7 +127,7 @@ input[name=r]{
 }
 
 .ville{
-    background-image: url(../image-japon/kyoto2.jpg);
+    background-image: url(../images/japon/kyoto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(0.92);
@@ -148,7 +148,7 @@ input[name=r]{
 .ville ul{
     padding-bottom: 1vh;
     padding-left: 2vw;
-    width: 83vh;
+    width: 79.8vh;
 }
 
 .ville h2{
@@ -163,7 +163,7 @@ input[name=r]{
 /*************************************** PARAGRAPHES *************************************/
 
 .monument{
-    background-image: url(../image-japon/pavillon4.jpg);
+    background-image: url(../images/japon/pavillon4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(0.92);
@@ -185,7 +185,7 @@ input[name=r]{
 }
 
 .paysage{
-    background-image: url(../image-japon/fuji1.jpg);
+    background-image: url(../images/japon/fuji1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(0.92);
@@ -203,13 +203,12 @@ input[name=r]{
 
 .paysage h2{
     padding: 4vh 1vw;
-    width: 100%;
     text-align: center;
     padding-top: 10%;
 }
 
 .nourriture{
-    background-image: url(../image-japon/ramen4.jpg);
+    background-image: url(../images/japon/ramen4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: opacity(0.95);
@@ -226,7 +225,6 @@ input[name=r]{
 
 .nourriture h2{
     padding: 4vh 1vw;
-    width: 100%;
     text-align: center;
     padding-top: 10%;
 }
