@@ -6,7 +6,7 @@ body{
 #canada-header{
   padding-top: 7rem;
   padding-bottom: 7rem;
-  background-image: url("/images/canada/canadaheader.jpg");
+  background-image: url("../images/canada/canadaheader.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
