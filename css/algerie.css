@@ -264,7 +264,7 @@ to{transform:rotatey(0.5turn)}}
 	align-items: center;
 	justify-content: center;
 }
-.container{
+.container1{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
